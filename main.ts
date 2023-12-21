@@ -169,10 +169,10 @@ class doubleLinkedList<T> {
 const myList = new doubleLinkedList<number>();
 
 
-myList.append(6)
+myList.append(6) 
 myList.append(36)
 myList.append(46)
 
-console.log(myList.pop(), "pop");
+console.log(myList.remove(1));
 console.log(myList, "mylist");
 
